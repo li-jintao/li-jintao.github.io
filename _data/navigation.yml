@@ -1,15 +1,18 @@
 # main links links
 main:
+
+  - title: "CV"
+    url: /cv/  
+  - title: "Skills"
+    url: /skills/
   - title: "Research"
     url: /research/
 
 #   - title: "Talks"
 #     url: /talks/
     
-  - title: "Skills"
-    url: /skills/
+
     
-  - title: "CV"
-    url: /cv/  
+
 #   - title: "Blog Posts"
 #     url: /year-archive/
