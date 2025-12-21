@@ -7,6 +7,16 @@ redirect_from:
 - /skills
 ---
 
+
+## Working Philosophy
+
+I view data science as a discipline focused on **helping organizations understand complex systems and make better decisions under uncertainty**.  
+My background in engineering and scientific research shapes a pragmatic, model-driven approach: start from first principles, validate with data, and deliver solutions that work reliably in production.
+
+Feel free to reach out if you’d like to discuss applied machine learning, optimization, or data-driven decision systems.
+
+---
+
 ## Areas of Expertise
 
 ### Applied Machine Learning & Optimization
@@ -48,15 +58,7 @@ redirect_from:
 
 ## Languages
 
-- **Chinese:** Native (Mandarin), Conversational Cantonese  
+- **Chinese:** Native (Mandarin)
 - **English:** Full professional proficiency  
 - **Japanese:** Conversational (JLPT N2)
 
----
-
-## Working Philosophy
-
-I view data science as a discipline focused on **helping organizations understand complex systems and make better decisions under uncertainty**.  
-My background in engineering and scientific research shapes a pragmatic, model-driven approach: start from first principles, validate with data, and deliver solutions that work reliably in production.
-
-Feel free to reach out if you’d like to discuss applied machine learning, optimization, or data-driven decision systems.
