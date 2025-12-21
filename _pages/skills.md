@@ -1,46 +1,62 @@
 ---
 layout: archive
-title: "Skills"
+title: "Skills & Expertise"
 permalink: /skills/
 author_profile: true
 redirect_from:
 - /skills
 ---
 
-Programming Skills
-======
-* C++: Since 2018, participated in developing a large-scale particle-based simulation program during Ph.D. course.
-* Python: Since 2018, used for data processing, visualization, and machine learning frameworks.
-  * Experienced Frameworks: PyTorch, Scikit-Learn, SciPy, Pandas, NumPy, Matplotlib.
-* Git: Since 2018, served as the key maintainer of several team repositories.
-* AWS: Since 2022, experienced in SageMaker, Redshift, and microservices pipelines like machine translation.
-* GCP: Since 2023, experienced in BigQuery and relevant tools that use the platform to establish pipelines for providing routine forecast services.
-* Other Tools:
-  * Airflow, MATLAB, LaTeX.
- 
-    
-Language Skills
-======
-* Chinese: Native
-  * Mandarin: Native
-  * Cantonese: Conversational
-* English: Full professional proficiency (TOEFL iBT: 100/120)
-* Japanese: Conversational level (JLPT N2)
-{% include base_path %}
+## Areas of Expertise
 
+### Applied Machine Learning & Optimization
+- Design and deployment of end-to-end machine learning systems for real-world decision-making.
+- Strong experience in demand forecasting, cost optimization, and large-scale predictive modeling.
+- Translating business problems into mathematically and statistically sound modeling approaches with measurable impact.
 
-More about me
-======
-TLDR: A Data Scientist has an academic background in simulation/modeling and a deep interest in providing state-of-art Machine Learning solutions at industry.
+### Data Science Systems & Production ML
+- Building production-grade ML pipelines, from data ingestion and feature engineering to model training, validation, and deployment.
+- Experience operating ML systems in enterprise environments with a focus on robustness, scalability, and maintainability.
+- Close collaboration with engineering and business stakeholders to ensure models are actionable and trusted.
 
-I'm Jintao, and I work as a Data Scientist at Ocean Network Express.I hail from Sichuan, China, a place I'm immensely proud of, not only for being the home of the majestic giant pandas but also for its globally renowned Sichuan cuisine.
+### Data Platforms & Cloud Analytics
+- Extensive experience working with large-scale analytical datasets on cloud platforms.
+- Hands-on experience with Google Cloud Platform (BigQuery, scheduled pipelines) and AWS-based services.
+- Designing data workflows that support recurring forecasting services and analytics products.
 
-My academic journey began in the field of Chemical Engineering, focusing on optimization, process design, and process control in industrial petrochemical plants. This was during my undergraduate studies in my home province. I had the opportunity to engage in several mini-projects where I explored simulation tools like Aspen Plus, which sparked my interest in numerical modeling.
+### Scientific Computing & Modeling
+- Strong foundation in numerical modeling, simulation, and scientific computing.
+- Ability to abstract complex real-world systems into tractable models, informed by engineering and physical principles.
+- Background in computational research enables rigorous problem formulation and validation.
 
-Motivated by this fascination, I pursued a master's degree. The advanced curriculum covered a wide range of contemporary topics in Chemical Engineering. During this time, I undertook a research project that involved simulating thermodynamics in a continuous crystallization process for pharmaceutical production. This project, where I extensively used MATLAB, deepened my understanding of programming.
+### Technical Leadership & Collaboration
+- Leading and mentoring data scientists within a digital solution unit.
+- Owning project roadmaps, prioritization, and delivery in cross-functional environments.
+- Acting as a bridge between technical teams and non-technical stakeholders.
 
-After completing my master's degree at HKUST, my interest shifted more towards natural science and theoretical models, leading me to join Kyoto University. My time in Kyoto was memorable, working alongside many mentors who gently guided me into the world of programming and physics. My research there not only enriched my knowledge in biophysics but also involved developing and maintaining repositories and data pipelines.
+---
 
-Thanks to the experiences I gained during my education, I developed the skills necessary to embark on a career as a Data Scientist. While the definition of Data Science can be somewhat ambiguous nowadays, I see it as a field dedicated to helping people comprehend current situations and identify improvement opportunities by leveraging the power of big data. This aligns perfectly with my role at ONE, where I provide scientifically grounded insights from our extensive databases and offer cutting-edge solutions, both cloud data pipeline management and state-of-art ML model building. These efforts assist stakeholders in making informed decisions.
+## Technical Stack (Representative)
 
-Lastly, thanks for reaching here, feel free to connect.
+- **Programming:** Python, C++
+- **Machine Learning:** PyTorch, scikit-learn, scientific Python ecosystem
+- **Data & Analytics:** Pandas, NumPy, BigQuery
+- **Cloud & MLOps:** GCP, AWS, workflow orchestration
+- **Collaboration & Dev:** Git, Linux, reproducible research tools
+
+---
+
+## Languages
+
+- **Chinese:** Native (Mandarin), Conversational Cantonese  
+- **English:** Full professional proficiency  
+- **Japanese:** Conversational (JLPT N2)
+
+---
+
+## Working Philosophy
+
+I view data science as a discipline focused on **helping organizations understand complex systems and make better decisions under uncertainty**.  
+My background in engineering and scientific research shapes a pragmatic, model-driven approach: start from first principles, validate with data, and deliver solutions that work reliably in production.
+
+Feel free to reach out if you’d like to discuss applied machine learning, optimization, or data-driven decision systems.
