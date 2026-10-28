@@ -1,64 +1,15 @@
 ---
-layout: archive
-title: "Skills & Expertise"
+layout: career
+title: Applied Data Science Expertise
+description: Applied machine learning, optimization, production data science, cloud analytics, and technical leadership.
 permalink: /skills/
-author_profile: true
 redirect_from:
-- /skills
+  - /skills
 ---
-
-
-## Working Philosophy
-
-I view data science as a discipline focused on **helping organizations understand complex systems and make better decisions under uncertainty**.  
-My background in engineering and scientific research shapes a pragmatic, model-driven approach: start from first principles, validate with data, and deliver solutions that work reliably in production.
-
-Feel free to reach out if you’d like to discuss applied machine learning, optimization, or data-driven decision systems.
-
----
-
-## Areas of Expertise
-
-### Applied Machine Learning & Optimization
-- Design and deployment of end-to-end machine learning systems for real-world decision-making.
-- Strong experience in demand forecasting, cost optimization, and large-scale predictive modeling.
-- Translating business problems into mathematically and statistically sound modeling approaches with measurable impact.
-
-### Data Science Systems & Production ML
-- Building production-grade ML pipelines, from data ingestion and feature engineering to model training, validation, and deployment.
-- Experience operating ML systems in enterprise environments with a focus on robustness, scalability, and maintainability.
-- Close collaboration with engineering and business stakeholders to ensure models are actionable and trusted.
-
-### Data Platforms & Cloud Analytics
-- Extensive experience working with large-scale analytical datasets on cloud platforms.
-- Hands-on experience with Google Cloud Platform (BigQuery, scheduled pipelines) and AWS-based services.
-- Designing data workflows that support recurring forecasting services and analytics products.
-
-### Scientific Computing & Modeling
-- Strong foundation in numerical modeling, simulation, and scientific computing.
-- Ability to abstract complex real-world systems into tractable models, informed by engineering and physical principles.
-- Background in computational research enables rigorous problem formulation and validation.
-
-### Technical Leadership & Collaboration
-- Leading and mentoring data scientists within a digital solution unit.
-- Owning project roadmaps, prioritization, and delivery in cross-functional environments.
-- Acting as a bridge between technical teams and non-technical stakeholders.
-
----
-
-## Technical Stack (Representative)
-
-- **Programming:** Python, C++
-- **Machine Learning:** PyTorch, scikit-learn, scientific Python ecosystem
-- **Data & Analytics:** Pandas, NumPy, BigQuery
-- **Cloud & MLOps:** GCP, AWS, workflow orchestration
-- **Collaboration & Dev:** Git, Linux, reproducible research tools
-
----
-
-## Languages
-
-- **Chinese:** Native (Mandarin)
-- **English:** Full professional proficiency  
-- **Japanese:** Conversational (JLPT N2)
-
+<div class="page-shell">
+  <header class="page-heading"><p class="eyebrow">Expertise</p><h1>Forecasting, optimization,<br>and production systems<span class="heading-dot">.</span></h1><p class="page-lede">Modeling and engineering capabilities for industry roles in applied data science, decision systems, and technical leadership.</p></header>
+  <div class="expertise-grid">{% for area in site.data.profile.expertise %}<section class="expertise-card"><span class="card-number">0{{ forloop.index }}</span><h2>{{ area.title }}</h2><p>{{ area.description }}</p><ul class="tags" aria-label="Tools and practices">{% for tool in area.tools %}<li>{{ tool }}</li>{% endfor %}</ul></section>{% endfor %}</div>
+  <section class="working-style section" aria-labelledby="approach-heading"><p class="eyebrow">How I work</p><h2 id="approach-heading">Start with the decision.</h2><div class="approach-grid"><article><span>01 / Frame</span><h3>Make the problem precise.</h3><p>Identify the decision, the operational constraints, and how success will be assessed before choosing a model.</p></article><article><span>02 / Validate</span><h3>Test the assumptions.</h3><p>Use baselines, scenarios, and validation to understand when an approach works and where its limits matter.</p></article><article><span>03 / Deliver</span><h3>Build for everyday use.</h3><p>Work with engineering and business teams on repeatable workflows, monitoring, and outputs people can trust.</p></article></div></section>
+  <section class="language-section"><div><p class="eyebrow">Across teams & regions</p><h2>Communication matters.</h2></div><ul class="plain-list">{% for language in site.data.profile.languages %}<li>{{ language }}</li>{% endfor %}</ul></section>
+</div>
+{% include contact-card.html %}

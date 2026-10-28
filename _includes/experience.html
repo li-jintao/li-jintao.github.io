@@ -1,0 +1,16 @@
+<div class="experience-list{% if include.compact %} experience-list-compact{% endif %}">
+  {% for job in site.data.profile.experience %}
+    <article class="experience-item">
+      <div class="experience-period">
+        <time datetime="{{ job.start | date: '%Y-%m' }}">{{ job.start | date: '%b %Y' }}</time> – {% if job.end %}<time datetime="{{ job.end | date: '%Y-%m' }}">{{ job.end | date: '%b %Y' }}</time>{% else %}Present{% endif %}
+        {% unless include.compact %}<span>{{ job.location }}</span>{% endunless %}
+      </div>
+      <div>
+        <p class="experience-company">{{ job.company }}{% unless job.end %}<span class="current-label">Current</span>{% endunless %}</p>
+        <h3>{{ job.role }}</h3>
+        <p>{{ job.summary }}</p>
+        {% unless include.compact %}<ul>{% for detail in job.details %}<li>{{ detail }}</li>{% endfor %}</ul>{% endunless %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

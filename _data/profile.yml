@@ -1,0 +1,120 @@
+summary: Data Science Manager at Ocean Network Express in Singapore. I build forecasting and optimization systems, lead six data scientists, and deliver internal decision-support tools end to end on Google Cloud.
+focus:
+- title: More accurate container forecasts
+  number: '01'
+  description: Improved container movement forecast accuracy to support operational planning in global shipping.
+  tags:
+  - Time series
+  - Applied ML
+  - Operational planning
+  id: container-forecasting
+  short_title: Forecasting
+  problem: Container movement forecasts support network and operational planning under changing demand.
+  contribution: Developing forecasting workflows, validating predictions, and connecting model outputs to planning needs.
+- title: Lower operating costs
+  number: '02'
+  description: Reduced operating costs through optimization and decision-support work for complex shipping operations.
+  tags:
+  - Optimization
+  - Simulation
+  - Decision science
+  id: operational-optimization
+  short_title: Optimization
+  problem: Operational planning needs to balance movement costs, network constraints, and business requirements.
+  contribution: Translating planning requirements into optimization objectives, constraints, and scenario comparisons with business teams.
+- title: Internal tools, deployed on GCP
+  number: '03'
+  description: Delivered internal data science tools end to end on Google Cloud, connecting modeling with production deployment.
+  tags:
+  - Production systems
+  - Cloud analytics
+  - Technical leadership
+  id: gcp-delivery
+  short_title: GCP delivery
+  problem: Forecasting and optimization work needs repeatable data workflows and usable outputs for internal teams.
+  contribution: Delivering internal data science tools end to end on GCP, connecting data workflows, models, validation, and production deployment.
+experience:
+- role: Manager / Digital Solution Unit Leader
+  company: Ocean Network Express
+  location: Singapore
+  start: '2025-05-01'
+  end: null
+  summary: Leading six data scientists delivering decision-support tools for network planning, cost optimization, and container flow management.
+  details:
+  - Define analytical strategy, project scope, and success metrics for planning problems with competing operational constraints.
+  - Guide technical approaches and review solutions for robustness, scalability, and business relevance.
+  - Lead and mentor a team of six data scientists, with ownership of prioritization, roadmaps, and delivery.
+  - Deliver internal data science tools end to end on GCP, from problem formulation and modeling to production deployment.
+  - Align operations, planning, and IT stakeholders across regions on analytical outputs and decision requirements.
+- role: Assistant Manager, Applied Data Scientist
+  company: Ocean Network Express
+  location: Tokyo, Japan
+  start: '2022-12-01'
+  end: '2025-05-01'
+  summary: Owned forecasting, optimization, and production decision-support systems for global shipping operations.
+  details:
+  - Designed forecasting and optimization pipelines to support planning under demand uncertainty and changing business rules.
+  - Translated business questions into modeling objectives, operational constraints, and evaluation criteria.
+  - Built scenario-based decision frameworks to assess cost, service, and operational trade-offs before execution.
+- role: Data Scientist
+  company: CTW Inc.
+  location: Tokyo, Japan
+  start: '2022-04-01'
+  end: '2022-08-01'
+  summary: Built data pipelines and monitoring dashboards to support operational visibility and performance tracking.
+  details:
+  - Converted manual reporting workflows into repeatable analytics processes.
+  - Developed dashboards and data workflows to make operational performance easier to monitor.
+expertise:
+- title: Forecasting & applied machine learning
+  description: Build and validate predictive models around demand, container movements, and operational planning. Connect model outputs with the decisions they support.
+  tools:
+  - Python
+  - scikit-learn
+  - PyTorch
+  - TensorFlow
+  - Time series
+- title: Optimization & decision science
+  description: Formulate objectives and constraints, compare planning scenarios, and use modeling and simulation to assess operational trade-offs.
+  tools:
+  - Optimization
+  - Scenario analysis
+  - Simulation
+  - Scientific computing
+  - C++
+- title: Production data science & cloud
+  description: Deliver internal tools end to end, from data workflows and model development to validation, deployment, and monitoring.
+  tools:
+  - GCP
+  - BigQuery
+  - AWS
+  - Pandas
+  - NumPy
+  - Workflow orchestration
+- title: Technical direction & delivery
+  description: Lead six data scientists, review analytical approaches, prioritize delivery, and align operations, planning, and engineering teams.
+  tools:
+  - Technical review
+  - Model validation
+  - Mentoring
+  - Stakeholder collaboration
+  - Git
+  - Linux
+education:
+- degree: Ph.D. in Chemical Engineering
+  institution: Kyoto University
+  period: Apr 2019 – Mar 2022
+  detail: Computational modeling, stochastic dynamics, and collective behavior in complex systems.
+- degree: M.Sc. in Chemical and Biomolecular Engineering
+  institution: Hong Kong University of Science and Technology
+  period: Sep 2017 – Nov 2018
+  detail: Thermodynamic modeling of aqueous electrolyte solutions.
+- degree: B.Eng. in Chemical Engineering and Technology
+  institution: Southwest Petroleum University
+  period: Sep 2013 – Jun 2017
+  detail: Process systems engineering and optimization.
+languages:
+- Chinese — native Mandarin
+- English — full professional proficiency
+- Japanese — conversational; JLPT N2
+career_focus: I’m interested in senior data scientist, applied scientist, and technical-lead roles in supply chain and industrial AI, as well as data science manager roles with substantial technical ownership.
