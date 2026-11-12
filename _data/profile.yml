@@ -1,38 +1,38 @@
-summary: Data Science Manager at Ocean Network Express in Singapore. I build forecasting and optimization systems, lead six data scientists, and deliver internal decision-support tools end to end on Google Cloud.
+summary: Data Science Manager in global shipping with a hands-on, forward-deployed approach to supply chain problems. I work with operations teams to design, build, and deploy forecasting, optimization, and decision-support tools on GCP and AWS-based platforms, while leading six data scientists.
 focus:
-- title: More accurate container forecasts
+- title: Production forecasting for container flows
   number: '01'
-  description: Improved container movement forecast accuracy to support operational planning in global shipping.
+  description: Developed and operated cloud-based container movement and return forecasting workflows, connecting Python models and historical data to recurring planning outputs.
   tags:
-  - Time series
-  - Applied ML
-  - Operational planning
+  - Supply chain forecasting
+  - Python and SQL
+  - BigQuery and Cloud Run
   id: container-forecasting
   short_title: Forecasting
-  problem: Container movement forecasts support network and operational planning under changing demand.
-  contribution: Developing forecasting workflows, validating predictions, and connecting model outputs to planning needs.
-- title: Lower operating costs
+  problem: Equipment planning depends on reliable forecasts across ports, locations, equipment types, and customer flows.
+  contribution: Built forecasting workflows with historical features, model validation, sparse-data fallbacks, and scheduled cloud execution.
+- title: Lower operating costs through decision systems
   number: '02'
-  description: Reduced operating costs through optimization and decision-support work for complex shipping operations.
+  description: Developed analytical workflows for equipment repositioning, transport and storage costs, and scenario comparison to support operational planning decisions.
   tags:
-  - Optimization
-  - Simulation
-  - Decision science
+  - Supply chain optimization
+  - Cost modeling
+  - Scenario analysis
   id: operational-optimization
   short_title: Optimization
-  problem: Operational planning needs to balance movement costs, network constraints, and business requirements.
-  contribution: Translating planning requirements into optimization objectives, constraints, and scenario comparisons with business teams.
-- title: Internal tools, deployed on GCP
+  problem: Repositioning and transport decisions must balance cost, network constraints, equipment availability, and operational rules.
+  contribution: Connected movement histories and cost inputs to Python and SQL models, validation, and interpretable planning outputs.
+- title: End-to-end cloud engineering for internal users
   number: '03'
-  description: Delivered internal data science tools end to end on Google Cloud, connecting modeling with production deployment.
+  description: Delivered internal analytics tools from user discovery to data integration, cloud deployment, validation, and iteration, primarily on GCP with additional AWS-based experience.
   tags:
-  - Production systems
-  - Cloud analytics
-  - Technical leadership
+  - Forward-deployed engineering
+  - GCP and AWS
+  - Python, APIs and CI/CD
   id: gcp-delivery
-  short_title: GCP delivery
-  problem: Forecasting and optimization work needs repeatable data workflows and usable outputs for internal teams.
-  contribution: Delivering internal data science tools end to end on GCP, connecting data workflows, models, validation, and production deployment.
+  short_title: Cloud delivery
+  problem: Operational users need reliable workflows and usable tools, beyond standalone model results or spreadsheets.
+  contribution: Built and maintained cloud-native data services and decision-support workflows, connecting requirements, code, deployment, and feedback.
 experience:
 - role: Manager / Digital Solution Unit Leader
   company: Ocean Network Express
@@ -44,8 +44,8 @@ experience:
   - Define analytical strategy, project scope, and success metrics for planning problems with competing operational constraints.
   - Guide technical approaches and review solutions for robustness, scalability, and business relevance.
   - Lead and mentor a team of six data scientists, with ownership of prioritization, roadmaps, and delivery.
-  - Deliver internal data science tools end to end on GCP, from problem formulation and modeling to production deployment.
-  - Align operations, planning, and IT stakeholders across regions on analytical outputs and decision requirements.
+  - Build cloud-native supply chain decision-support tools from business discovery and Python/SQL implementation through GCP deployment, validation, and iteration.
+  - Work directly with operations, planning, product, and IT stakeholders across regions, translating practical workflows into engineering requirements.
 - role: Assistant Manager, Applied Data Scientist
   company: Ocean Network Express
   location: Tokyo, Japan
@@ -83,7 +83,7 @@ expertise:
   - Scientific computing
   - C++
 - title: Production data science & cloud
-  description: Deliver internal tools end to end, from data workflows and model development to validation, deployment, and monitoring.
+  description: Engineer end-to-end internal tools across data integration, models, APIs, cloud deployment, validation, and operational feedback; strongest production experience on GCP with exposure to AWS-based systems.
   tools:
   - GCP
   - BigQuery
@@ -117,4 +117,4 @@ languages:
 - Chinese — native Mandarin
 - English — full professional proficiency
 - Japanese — conversational; JLPT N2
-career_focus: I’m interested in senior data scientist, applied scientist, and technical-lead roles in supply chain and industrial AI, as well as data science manager roles with substantial technical ownership.
+career_focus: Interested in forward-deployed engineering, applied science, and technical leadership roles where cloud engineering and deep supply chain domain knowledge meet, alongside hands-on data science leadership roles.
