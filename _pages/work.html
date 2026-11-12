@@ -5,62 +5,56 @@ description: End-to-end cloud engineering and applied ML for global supply chain
 permalink: /work/
 ---
 
-# Selected Work
+<div class="work-page">
+  <h1>Selected Work</h1>
+  <p>I work at the intersection of <strong>software engineering, applied ML, and supply chain operations</strong>. Much of my work is forward-deployed in practice: I work directly with planners and operational teams to understand a workflow, build a solution, deploy it to the cloud, and improve it based on how people actually use it.</p>
+  <p>My strongest hands-on delivery experience is on <strong>Google Cloud</strong>, with additional experience in <strong>AWS-based environments</strong>. These examples focus on engineering approaches and supply chain challenges without disclosing proprietary rules or internal data.</p>
 
-I work at the intersection of **software engineering, applied ML, and supply chain operations**. Much of my work is forward-deployed in practice: I work directly with planners and operational teams to understand a workflow, build a working solution, deploy it to the cloud, and improve it based on how people actually use it.
+  <section class="work-entry" id="container-forecasting">
+    <h2>1. Production forecasting for container flows</h2>
+    <p><strong>Problem:</strong> Container planning requires weekly forecasts of equipment movements and returns across ports, depots, equipment types, and customer flows. Operational data can be sparse or inconsistent, so forecasts must fit the cadence and constraints of planning teams.</p>
+    <p><strong>Contribution:</strong></p>
+    <ul>
+      <li>Developed Python and SQL forecasting workflows with historical features, sparse-data fallback logic, model evaluation, and recurring output generation.</li>
+      <li>Connected models with booking and container movement data to support repositioning and return planning.</li>
+      <li>Worked with regional operations and product stakeholders to review exceptions, validate model behavior, and refine outputs for practical use.</li>
+    </ul>
+    <p><strong>Engineering &amp; deployment:</strong> Built and maintained cloud-based processing with <strong>BigQuery, Cloud Run, containerized Python workloads, and scheduled orchestration</strong>, with attention to validation, logging, testing, and repeatable releases.</p>
+    <p><strong>Outcome:</strong> Improved container movement forecast accuracy and delivered recurring decision-support outputs for global shipping operations.</p>
+  </section>
 
-My strongest hands-on delivery experience is on **Google Cloud**, with additional experience in **AWS-based environments**. These examples describe the engineering approach and supply chain problems without exposing internal data or proprietary rules.
+  <section class="work-entry" id="operational-optimization">
+    <h2>2. Cost optimization and supply chain decision systems</h2>
+    <p><strong>Problem:</strong> Equipment repositioning and transportation decisions involve location constraints, historical flows, tariffs, and competing cost and service objectives. Planners need transparent scenario comparisons reflecting how the network operates.</p>
+    <p><strong>Contribution:</strong></p>
+    <ul>
+      <li>Formulated operational questions as measurable optimization objectives, constraints, and cost rules.</li>
+      <li>Worked with movement histories, location hierarchies, equipment attributes, and transportation or storage cost inputs to build analytical workflows and proofs of concept.</li>
+      <li>Designed fallbacks, validation checks, and interpretable outputs to help business users investigate exceptions and compare options.</li>
+    </ul>
+    <p><strong>Engineering &amp; deployment:</strong> Implemented data preparation and calculation workflows using <strong>Python, SQL, and cloud data services</strong>, connecting source data, business logic, and consumable results. Focused on maintainable components that can evolve from analysis into operational tools.</p>
+    <p><strong>Outcome:</strong> Supported operating-cost reduction and more consistent evaluation of supply chain planning options.</p>
+  </section>
 
-## 1. Production forecasting for container flows
+  <section class="work-entry" id="gcp-delivery">
+    <h2>3. Forward-deployed cloud engineering and internal tools</h2>
+    <p><strong>Problem:</strong> Operational teams need usable, reliable solutions that fit existing processes, without depending on manual exports, disconnected scripts, or ongoing interpretation by an engineer.</p>
+    <p><strong>Contribution:</strong></p>
+    <ul>
+      <li>Took internal tools from <strong>user discovery and prototyping through data integration, implementation, deployment, and iteration</strong>.</li>
+      <li>Built Python data services and workflows, connected internal datasets and APIs, and developed ways to share forecasting and optimization outputs with users.</li>
+      <li>Owned decisions around runtime design, packaging, deployment, error handling, testing, and ongoing maintenance while working with IT, product, and operations teams.</li>
+    </ul>
+    <p><strong>Engineering &amp; deployment:</strong> Hands-on with <strong>GCP (BigQuery, Cloud Run, workflow orchestration)</strong>, <strong>AWS-based platforms</strong>, Python, SQL, Git, containers, CI/CD practices, and cloud-native development. Experience spans modeling, data systems, and operational delivery.</p>
+    <p><strong>Outcome:</strong> Delivered internal analytics and decision-support tools end to end, reducing the gap between business problems and practical applications.</p>
+  </section>
 
-**Problem:** Container planning requires weekly forecasts of equipment movements and returns across ports, depots, equipment types, and customer flows. Operational data is incomplete and uneven, and a useful forecast must fit the cadence and constraints of planning teams.
-
-**Contribution**
-
-- Developed Python and SQL forecasting workflows, including historical features, fallback logic for sparse location-level data, model evaluation, and recurring output generation.
-- Connected forecasting models with booking and movement data, translating predictions into outputs that can support container repositioning and return planning.
-- Worked with regional operations and product stakeholders to understand exceptions, review model behavior, and adjust the solution for practical use.
-
-**Engineering & deployment:** Built and maintained cloud-based processing around **BigQuery, Cloud Run, containerized Python workloads, and scheduled orchestration**, with attention to testing, validation, logs, and repeatable releases.
-
-**Outcome:** Improved container movement forecast accuracy and delivered recurring decision-support outputs for global shipping operations.
-
-## 2. Cost optimization and supply chain decision systems
-
-**Problem:** Equipment repositioning and transportation decisions involve yard and location constraints, historical flows, tariff information, and competing cost and service objectives. Planners need transparent scenario comparisons that reflect the way the network operates.
-
-**Contribution**
-
-- Formulated operational questions as measurable optimization objectives, constraints, and cost rules.
-- Worked with movement histories, location hierarchies, equipment attributes, and transportation or storage cost inputs to develop analytical workflows and proofs of concept.
-- Designed practical fallbacks, validation checks, and interpretable outputs so business teams can review proposed decisions and investigate exceptions.
-
-**Engineering & deployment:** Implemented data preparation and calculation workflows using **Python, SQL, and cloud data services**, connecting source data, business logic, and consumable results. Focused on building maintainable components that can evolve from analysis to operational tools.
-
-**Outcome:** Supported operating-cost reduction and more consistent evaluation of supply chain planning options.
-
-## 3. Forward-deployed cloud engineering and internal tools
-
-**Problem:** An accurate model has limited value if a user still depends on manual exports, disconnected scripts, or an engineer to interpret the result. Operational teams need solutions that fit existing processes and are reliable after the first demonstration.
-
-**Contribution**
-
-- Took internal tools from **user discovery and prototype through data integration, implementation, deployment, and iteration**.
-- Built Python-based data services and workflows, connected internal datasets and APIs, and designed usable ways to share forecasting and optimization outputs.
-- Owned technical decisions around runtime design, packaging, deployment, error handling, testing, and ongoing maintenance while coordinating with IT, product, and operations teams.
-
-**Engineering & deployment:** Hands-on with **GCP (BigQuery, Cloud Run, workflow orchestration)**, **AWS-based platforms**, Python, SQL, Git, containers, CI/CD practices, and cloud-native development. My experience spans both the data/modeling layer and the application and operational delivery layers.
-
-**Outcome:** Delivered internal analytics and decision-support capabilities end to end, reducing the distance between a business problem and a tool that operational users can work with.
-
-## How I Work
-
-**Discover the workflow.** Work with the people making decisions to define the actual problem, constraints, inputs, and measures of success.
-
-**Build the full solution.** Move between data engineering, modeling, APIs, cloud infrastructure, and user-facing delivery as the problem requires.
-
-**Ship and improve.** Validate against real cases, automate repeatable execution, monitor failures, and iterate with users after deployment.
-
-I currently lead and mentor **six data scientists**, while staying close to architecture, code, and delivery. My domain depth is in **global shipping and supply chain management**, particularly container flows, forecasting, transportation costs, and operational planning.
-
-For my broader background, see my [CV]({{ '/cv/' | relative_url }}) and [technical skills]({{ '/skills/' | relative_url }}).
+  <section class="work-approach">
+    <h2>How I Work</h2>
+    <p><strong>Discover the workflow.</strong> Work directly with decision-makers to define the problem, operational constraints, inputs, and measures of success.</p>
+    <p><strong>Build the full solution.</strong> Move between data engineering, modeling, APIs, cloud services, and user-facing delivery as needed.</p>
+    <p><strong>Ship and improve.</strong> Validate against real cases, automate repeatable execution, monitor failures, and iterate with users after deployment.</p>
+    <p>I lead and mentor <strong>six data scientists</strong> while staying close to architecture, code, and delivery. My domain expertise is in <strong>global shipping and supply chain management</strong>, including container flows, forecasting, transportation costs, and operational planning.</p>
+    <p>For more about my background, see my <a href="{{ '/cv/' | relative_url }}">CV</a> and <a href="{{ '/skills/' | relative_url }}">technical skills</a>.</p>
+  </section>
+</div>
