@@ -45,12 +45,13 @@ def check_site(root):
         path = root / unquote(urlsplit(url).path).lstrip("/")
         return path / "index.html" if path.is_dir() else path
 
+    # Validate the pages currently published by the simplified, text-first site.
     expected = {
-        "/": ["Ocean Network Express", "six data scientists", "Lower operating costs", "Technical ownership"],
-        "/work/": ["Problem", "Contribution", "Outcome", "container movement", "Google Cloud"],
-        "/cv/": ["Professional summary", "Professional experience", "Kyoto University"],
-        "/skills/": ["Forecasting & applied machine learning", "Technical direction & delivery"],
-        "/research/": ["Physical Review X", "Selected publications"],
+        "/": ["Ocean Network Express", "six data scientists", "Areas of Work", "Forward Deployed Engineer"],
+        "/work/": ["Selected Work", "Problem:", "Contribution:", "Outcome:", "container movement", "Google Cloud"],
+        "/cv/": ["Professional Summary", "Professional Experience", "Kyoto University"],
+        "/skills/": ["Cloud engineering", "Supply chain systems", "Representative Technical Stack"],
+        "/research/": ["Physical Review X", "Selected publications", "Research illustration"],
     }
     checked_links = 0
     for route, markers in expected.items():
@@ -58,7 +59,7 @@ def check_site(root):
         assert path.is_file(), f"Missing page: {route}"
         page = load(path)
         assert page.h1 == 1, f"{route}: expected exactly one h1"
-        assert page.active == 1, f"{route}: expected one active navigation link"
+        assert page.active == (0 if route == "/" else 1), f"{route}: incorrect active navigation state"
         assert "main" in page.ids, f"{route}: missing skip-link destination"
         assert page.description, f"{route}: missing SEO description"
         assert page.canonical == "https://li-jintao.github.io" + route, page.canonical
