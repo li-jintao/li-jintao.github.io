@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Jintao Li"
-  avatar           : "profile_pic_2025dec.jpg"
+  avatar           : "file_000000008f9881fabd916856a00a045f.png"
   bio              : "Data Science Manager at Ocean Network Express Pte. Ltd."
   location         : "Singapore"
   employer         :
@@ -221,7 +221,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/profile_pic_2025dec.jpg
+      image: /images/file_000000008f9881fabd916856a00a045f.png
   # _posts
   - scope:
       path: ""
