@@ -1,7 +1,7 @@
 ---
 layout: career
 title: Skills & Expertise
-description: Applied machine learning, forecasting, optimization, production data science and technical leadership.
+description: Cloud engineering, forward-deployed delivery, machine learning and optimization for global supply chain operations.
 permalink: /skills/
 redirect_from:
   - /skills
@@ -9,32 +9,36 @@ redirect_from:
 
 # Skills & Expertise
 
-My approach to data science starts with the operational decision, the available evidence, and the constraints of the system. I aim to develop models that can be validated, maintained, and used reliably in practice.
+I combine **hands-on software and cloud engineering** with applied data science and supply chain domain expertise. My approach is to work closely with operational users, understand the decision process, and take solutions all the way into a usable, maintainable environment.
 
 ## Areas of Expertise
 
-### Applied Machine Learning & Forecasting
+### Cloud engineering & end-to-end delivery
 
-Time series and demand forecasting, regression, feature engineering, model evaluation, uncertainty assessment, and predictive modeling for operational planning.
+Designing and implementing internal tools from requirements and data integration through Python/SQL services, containerized execution, testing, deployment, monitoring, and iteration with users. Experience across **GCP and AWS-based environments**, with substantial hands-on GCP delivery using **BigQuery, Cloud Run, and scheduled workflows**.
 
-### Optimization & Decision Science
+### Supply chain systems & optimization
 
-Cost optimization, numerical simulation, scenario analysis, trade-off evaluation, and translating complex operational questions into measurable objectives and constraints.
+Container movement and return flows, equipment repositioning, transportation and storage cost models, operational planning, scenario analysis, constraint formulation, and converting real processes into practical decision-support software.
 
-### Data Platforms & Production ML
+### Forecasting & applied machine learning
 
-End-to-end data pipelines, Google Cloud (including BigQuery and Cloud Run), scheduled workflows, model monitoring, validation, and reliable deployment of internal analytics tools.
+Time series and demand forecasting, feature engineering, regression, model selection, evaluation, sparse-data fallback logic, validation, and connecting predictions to the cadence and granularity of operational decisions.
 
-### Technical Leadership
+### Forward-deployed problem solving
 
-Leading and mentoring data scientists, guiding technical design and review, setting delivery priorities, and working closely with operations, product, and engineering stakeholders.
+Working directly with operations, product, and IT stakeholders to map workflows, clarify requirements, prototype quickly, handle exceptions, build usable results, and support adoption after deployment.
+
+### Technical direction & delivery
+
+Leading and mentoring six data scientists, reviewing architecture and modeling approaches, setting technical standards, prioritizing work, and staying hands-on in implementation and debugging.
 
 ## Representative Technical Stack
 
-- **Programming:** Python, C++, SQL
-- **ML & scientific computing:** Pandas, NumPy, scikit-learn, PyTorch, TensorFlow
-- **Cloud & data:** GCP, BigQuery, Cloud Run, AWS
-- **Engineering practices:** Git, Linux, automated workflows, testing and reproducible modeling
+- **Languages & engineering:** Python, SQL, C++, Git, Linux, APIs, containerization, testing, CI/CD
+- **Cloud & data platforms:** GCP, AWS, BigQuery, Cloud Run, workflow orchestration
+- **ML & analytical tools:** Pandas, NumPy, scikit-learn, PyTorch, TensorFlow, forecasting, optimization and simulation
+- **Delivery:** Data pipeline design, validation, deployment, reliability, monitoring, stakeholder feedback
 
 ## Languages
 
@@ -42,4 +46,4 @@ Leading and mentoring data scientists, guiding technical design and review, sett
 - English: Professional
 - Japanese: Conversational
 
-Further details are available in my [CV]({{ '/cv/' | relative_url }}) and [selected work]({{ '/work/' | relative_url }}).
+Read more about [end-to-end projects]({{ '/work/' | relative_url }}) and [professional experience]({{ '/cv/' | relative_url }}).
