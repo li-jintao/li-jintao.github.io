@@ -2,7 +2,7 @@
 layout: career
 permalink: /
 title: About me
-description: Jintao Li, Data Science Manager in Singapore working on forecasting, optimization, and production data science.
+description: Jintao Li, a Singapore-based data science manager building end-to-end cloud solutions for supply chain operations with GCP and AWS experience.
 redirect_from:
   - /about/
   - /about.html
@@ -10,20 +10,22 @@ redirect_from:
 
 # About Me
 
-I am a **Data Science Manager and Digital Solution Unit Leader** at **Ocean Network Express (ONE)**, based at the global headquarters in Singapore. My work focuses on applied machine learning, forecasting, optimization, and operational decision-support systems.
+I am a **Data Science Manager and Digital Solution Unit Leader** at **Ocean Network Express (ONE)**, based at its global headquarters in Singapore. I specialize in **end-to-end engineering for supply chain operations**, combining applied machine learning, cloud development, and deep understanding of how global container logistics works.
 
-I lead a data science team while staying involved in technical design and delivery. I work across the lifecycle from defining an operational problem and validating a model to building dependable data pipelines and delivering tools for everyday use, particularly on **Google Cloud**.
+My work is close to a **forward-deployed engineering** model. I work directly with planning and operations teams to understand what decisions they need to make, translate messy operational processes into technical requirements, and build solutions that people can actually use. That includes **data engineering, modeling, Python development, cloud deployment, validation, and ongoing iteration**.
 
-My background combines industry data science with scientific computing and numerical modeling. I received my **Ph.D. from Kyoto University** and **M.Sc. from the Hong Kong University of Science and Technology**.
+I have hands-on experience across **Google Cloud (GCP) and AWS-based environments**, with especially deep delivery experience using **BigQuery, Cloud Run, containerized Python services, and automated data workflows**. I also lead and mentor **six data scientists**, while remaining involved in architecture, code, and production delivery.
+
+I hold a **Ph.D. from Kyoto University** and an **M.Sc. from the Hong Kong University of Science and Technology**. My scientific computing background complements practical software development and system-level thinking.
 
 ## Areas of Work
 
-- **Forecasting:** Container movement, demand, and return forecasting for global shipping operations.
-- **Optimization:** Cost and operational planning under real-world constraints.
-- **Production data science:** Data pipelines, model validation, orchestration, and internal decision-support tools on GCP.
-- **Technical leadership:** Team mentoring, technical direction, delivery ownership, and collaboration with operations and engineering stakeholders.
+- **End-to-end cloud engineering:** Take internal tools from user discovery and data integration through Python/SQL implementation, API and pipeline design, deployment, testing, and operational support.
+- **Supply chain forecasting:** Build recurring forecasts for container movements, returns, and demand, with a focus on decision-ready outputs for global shipping operations.
+- **Lower operating costs:** Develop optimization, scenario evaluation, and cost modeling for equipment repositioning and transportation planning.
+- **Technical ownership:** Lead architectural and analytical decisions, mentor engineers and data scientists, and work with product, operations, and IT across regions.
 
-For representative projects, see [Selected Work]({{ '/work/' | relative_url }}). A fuller history is available in my [CV]({{ '/cv/' | relative_url }}).
+See [Selected Work]({{ '/work/' | relative_url }}) for concrete engineering examples, and [Skills]({{ '/skills/' | relative_url }}) for technologies and practices.
 
 ## Background
 
@@ -32,6 +34,6 @@ For representative projects, see [Selected Work]({{ '/work/' | relative_url }}).
 - **March 2022:** Ph.D. in Chemical Engineering, Kyoto University.
 - **2018:** M.Sc. in Chemical and Biomolecular Engineering, HKUST.
 
-I am interested in the practical application of machine learning and optimization to complex industrial systems, combining rigorous modeling with reliable deployment.
+I am particularly interested in **Forward Deployed Engineer, Applied Scientist, and technical leadership roles** that combine hands-on cloud engineering with supply chain and industrial domain knowledge.
 
-[Experience]({{ '/cv/' | relative_url }}) · [Skills]({{ '/skills/' | relative_url }}) · [Research & Publications]({{ '/research/' | relative_url }})
+[CV]({{ '/cv/' | relative_url }}) · [Selected Work]({{ '/work/' | relative_url }}) · [Research & Publications]({{ '/research/' | relative_url }})
