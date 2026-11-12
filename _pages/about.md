@@ -10,7 +10,7 @@ redirect_from:
 
 # About Me
 
-I am a **Data Science Manager and Digital Solution Unit Leader** at **Ocean Network Express (ONE)**, based at its global headquarters in Singapore. I specialize in **end-to-end engineering for supply chain operations**, combining applied machine learning, cloud development, and deep understanding of how global container logistics works.
+I am a **Data Science Manager and Digital Solution Unit Lead** at **Ocean Network Express (ONE)**, based at its global headquarters in Singapore. I specialize in **end-to-end engineering for supply chain operations**, combining applied machine learning, cloud development, and deep understanding of how global container logistics works.
 
 My work is close to a **forward-deployed engineering** model. I work directly with planning and operations teams to understand what decisions they need to make, translate messy operational processes into technical requirements, and build solutions that people can actually use. That includes **data engineering, modeling, Python development, cloud deployment, validation, and ongoing iteration**.
 
@@ -29,7 +29,7 @@ See [Selected Work]({{ '/work/' | relative_url }}) for concrete engineering exam
 
 ## Background
 
-- **May 2025 to present:** Data Science Manager / Digital Solution Unit Leader, ONE, Singapore.
+- **May 2025 to present:** Data Science Manager / Digital Solution Unit Lead, ONE, Singapore.
 - **December 2022 to May 2025:** Applied Data Scientist, ONE, Tokyo.
 - **March 2022:** Ph.D. in Chemical Engineering, Kyoto University.
 - **2018:** M.Sc. in Chemical and Biomolecular Engineering, HKUST.
