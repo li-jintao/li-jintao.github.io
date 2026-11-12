@@ -16,9 +16,11 @@ That work shapes how I approach applied data science: make assumptions explicit,
 ## Research illustration
 
 <figure>
-  <img src="{{ '/images/research_outline.png' | relative_url }}" alt="Overview of research on collective cell dynamics and computational modeling of biological systems" width="1488" height="1488" loading="lazy">
+  <img src="{{ '/images/research-overview.png' | relative_url }}" alt="Overview of research on collective cell dynamics and computational modeling of biological systems" width="1488" height="1488" loading="lazy">
   <figcaption>Research in scientific computing, collective dynamics, and complex systems.</figcaption>
 </figure>
+
+[Full research overview (PDF)]({{ '/images/research-overview.pdf' | relative_url }}).
 
 
 ## Selected publications
