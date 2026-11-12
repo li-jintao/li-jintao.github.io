@@ -1,11 +1,6 @@
 <footer class="site-footer">
   <div class="footer-inner">
-    <div><a class="footer-name" href="{{ '/' | relative_url }}">Jintao Li<span>.</span></a><p>Applied data science · Singapore</p></div>
-    <nav aria-label="Social and contact links">
-      <a href="mailto:{{ site.author.email }}">Email {% include icon-arrow.html %}</a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn {% include icon-arrow.html %}</a>
-      <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} aria-current="page"{% endif %}>Publications {% include icon-arrow.html direction="right" %}</a>
-    </nav>
-    <p class="copyright">© {{ site.time | date: '%Y' }} Jintao Li · Singapore</p>
+    <span>© {{ site.time | date: '%Y' }} Jintao Li</span>
+    <span>Applied data science · Singapore</span>
   </div>
 </footer>
