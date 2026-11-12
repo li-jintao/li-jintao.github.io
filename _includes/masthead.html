@@ -1,14 +1,10 @@
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Jintao Li, home">
-      <span class="brand-mark" aria-hidden="true">JL<span>.</span></span>
-      <span class="brand-name">Jintao Li<span>Forecasting, optimization & applied ML</span></span>
-    </a>
+    <a class="site-title" href="{{ '/' | relative_url }}">Jintao Li</a>
     <nav class="primary-nav" aria-label="Main navigation">
       {% for item in site.data.navigation.main %}
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
     </nav>
-    <a class="header-contact" href="mailto:{{ site.author.email }}">Contact {% include icon-arrow.html %}</a>
   </div>
 </header>
