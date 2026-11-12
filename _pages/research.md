@@ -13,6 +13,13 @@ My research background is in computational modeling of complex systems. During m
 
 That work shapes how I approach applied data science: make assumptions explicit, connect local behavior to system-level outcomes, and validate a model before using it to inform a decision.
 
+## Research illustration
+
+<figure>
+  <img src="{{ '/images/research_outline.png' | relative_url }}" alt="Overview of research on collective cell dynamics and computational modeling of biological systems" width="1488" height="1488" loading="lazy">
+  <figcaption>Research in scientific computing, collective dynamics, and complex systems.</figcaption>
+</figure>
+
 
 ## Selected publications
 
@@ -38,13 +45,5 @@ That work shapes how I approach applied data science: make assumptions explicit,
 - **March 2022 — APS March Meeting.** Competition between Cell Types under Cell Cycle Regulation with Apoptosis.
 - **February 2022 — Warwick Physics Department Seminar.** The Role of the Cell Cycle in Collective Cell Dynamics.
 - **January 2022 — Active Matter Workshop, Meiji University.** Competition between Cell Types under Cell Cycle Regulation with Apoptosis.
-
-<details class="research-details">
-  <summary>View research illustration</summary>
-<figure>
-  <img src="{{ '/images/research_outline.png' | relative_url }}" alt="Overview of research on collective cell dynamics and computational modeling of biological systems" width="1488" height="1488" loading="lazy">
-  <figcaption>Research in scientific computing, collective dynamics, and complex systems.</figcaption>
-</figure>
-</details>
 
 [Full publication profile on Google Scholar]({{ site.author.googlescholar }}).
